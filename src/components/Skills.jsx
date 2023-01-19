@@ -1,16 +1,14 @@
 import React from "react";
-import { MdArrowForward } from "react-icons/md";
 import { SkillsContent } from "../constants/info";
 
 const Skills = () => {
   return (
     <section className="min-h-fit bg-bg_light_primary" id="skills">
-
       <div className="md:container px-5  py-14">
-        <h2 className="title" data-aos="fade-down">
+        <h2 className="md:text-3xl text-2xl" data-aos="fade-down">
           Skills
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h4 className="text-gray md:text-4xl text-3xl !leading-relaxed" data-aos="fade-down">
           My top skills
         </h4>
         <br />
@@ -32,7 +30,7 @@ const Skills = () => {
                 />
               </div>
               <div>
-                <h6>{skill.name}</h6>
+                <h6 className="font-bold text-[#253D57] leading-8">{skill.name}</h6>
               </div>
             </div>
           ))}
