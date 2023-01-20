@@ -14,6 +14,31 @@ import personalityTest from "../images/personality-website.png";
 import recipeFinder from "../images/recipe-finder-website.png";
 import shoppingCart from "../images/shopping-cart.png"
 
+//react icons
+import { TbSmartHome } from "react-icons/tb";
+import { BiUser } from "react-icons/bi";
+import { RiProjectorLine } from "react-icons/ri";
+import { MdOutlinePermContactCalendar } from "react-icons/md";
+
+export const NavBarContent = [
+    {
+      link: "#home",
+      icon: TbSmartHome,
+    },
+    {
+      link: "#skills",
+      icon: BiUser,
+    },
+    {
+      link: "#projects",
+      icon: RiProjectorLine,
+    },
+    {
+      link: "#contact",
+      icon: MdOutlinePermContactCalendar,
+    },
+]
+
 
 export const SkillsContent=  [
     {
