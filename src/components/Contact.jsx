@@ -1,5 +1,4 @@
-import React from "react";
-import { useRef } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import { ACCESS_KEY, SERVICE_ID, TEMPLATE_ID } from "../constants/keys";

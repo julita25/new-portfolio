@@ -25,7 +25,7 @@ const Projects = () => {
             src={programmer}
             alt="..."
             data-aos="fade-right"
-            className="max-w-[45vw] min-w-[22rem] lg:w-max"
+            className="max-w-[45vw] min-w-[22rem] w-2/4"
           />
           <Swiper
             pagination={{
@@ -34,7 +34,7 @@ const Projects = () => {
             data-aos="fade-left"
             spaceBetween={20}
             modules={[Pagination]}
-            className="rounded-3xl px-5 drop-shadow-primary self-start w-4/5 lg:w-max pb-5"
+            className="rounded-3xl px-5 drop-shadow-primary self-start w-3/5 pb-5"
           >
             {ProjectContent.map((content, i) => (
               <SwiperSlide
