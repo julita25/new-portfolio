@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* Inria serif */
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap");
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Paprika */
+@import url("https://fonts.googleapis.com/css2?family=Paprika&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    color: text-dark_primary;
+  }
+
+  h1,
+  p,
+  button,
+  input,
+  textarea {
+    font-family: Poppins;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  h2 {
+    font-family: Inria;
+  }
+
+  h3,
+  h4,
+  h6 {
+    font-family: Paprika;
+  }
 }
