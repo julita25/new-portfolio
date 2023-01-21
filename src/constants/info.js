@@ -77,7 +77,7 @@ export const ProjectContent = [
   {
     title: "Company analytics website",
     img: analyticsWebsite,
-    txt: "This app uses recharts.js to display charts with mocked data about company sales, number of items sold etc. You can also apply filters to view the data by week or by month.",
+    txt: "This app uses recharts.js to display charts with mocked data about company sales, number of items sold etc. Apply filters to view the data by week or by month.",
     link: "https://yourcompanyanalytics.vercel.app/"
 
   },
@@ -96,7 +96,7 @@ export const ProjectContent = [
   {
     title: "Recipe finder",
     img: recipeFinder,
-    txt: "Search your favorite recipe, filter them by diet or set only for gluten free ones!. Once you like on click on details to check their nutrional value, ingredients.",
+    txt: "Search your favorite recipe, filter them by diet or set only for gluten free ones!. Click on details to check their nutrional value, ingredients.",
     link: "https://recipes-finder-a0xpb9izs-julita25.vercel.app/"
   },
   {

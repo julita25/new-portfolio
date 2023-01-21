@@ -23,7 +23,6 @@ const Contact = () => {
           toast.success("Email send Successfully");
         },
         (error) => {
-          console.log(error.text);
           toast.error(error.text);
         }
       );
