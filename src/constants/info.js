@@ -69,6 +69,12 @@ export const SkillsContent=  [
 
 export const ProjectContent = [
   {
+    title: "Recipe finder",
+    img: recipeFinder,
+    txt: "Search your favorite recipe, filter them by diet or set only for gluten free ones!. Click on details to check their nutrional value, ingredients.",
+    link: "https://recipes-website-2.vercel.app/"
+  },
+  {
     title: "Online grocery store",
     img: groceryStore,
     txt: "Check my website simulator of an online grocery store. Add, delete products once your ready checkout!",
@@ -79,7 +85,6 @@ export const ProjectContent = [
     img: analyticsWebsite,
     txt: "This app uses recharts.js to display charts with mocked data about company sales, number of items sold etc. Apply filters to view the data by week or by month.",
     link: "https://yourcompanyanalytics.vercel.app/"
-
   },
   {
     title: "Personality test",
@@ -92,12 +97,6 @@ export const ProjectContent = [
     img: shoppingCart,
     txt: "Simple app that calculates the price of items added to the shopping bag. Add, remove, increase or decrease the quantities of the item. Uses local storage.",
     link: "https://shopping-cart-typescript-smoky.vercel.app/"
-  },
-  {
-    title: "Recipe finder",
-    img: recipeFinder,
-    txt: "Search your favorite recipe, filter them by diet or set only for gluten free ones!. Click on details to check their nutrional value, ingredients.",
-    link: "https://recipes-finder-a0xpb9izs-julita25.vercel.app/"
   },
   {
     title: "Cold Stone landing page",
