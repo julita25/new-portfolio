@@ -45,6 +45,13 @@ const Projects = () => {
                 <div className="flex flex-col gap-1 mt-2 space-y-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
                   <div className="text-sm">{content.txt}</div>
+                  <div className="flex gap-2">
+                    {
+                      content.tags.map((tag) => (
+                        <div className="border rounded-2xl bg-blue-900 text-white w-max p-2 text-xs">{tag}</div>
+                      ))
+                    }
+                  </div>
                   <a href={content.link} target="_blank" rel="noreferrer">
                     <button className="text-white border-2 p-2 bg-blue-400">
                       Go to website
