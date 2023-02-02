@@ -22,9 +22,9 @@ const Awards = () => {
               <div className="flex flex-col gap-5">
                 <img src={award2} alt="DAST AWARDr" className="object-cover w-full" data-aos="fade-right" />
                 <p className="sm:text-base text-sm">
-                  On May 11th 2022, I was awarded with the <span className="font-bold text-blue-600">Dubai Award For Sustainable Transport (DAST)</span>. This award, given by the Road Transport Authority (RTA) of Dubai
+                  On May 11th 2022, I was awarded with the <span className="font-bold text-blue-600">Dubai Award For Sustainable Transport (DAST)</span>. This award, created by the Road Transport Authority (RTA) of Dubai
                   is given each year to transport systems initiatives in the field of safety, innovation and environmental protection. My project was <span className="font-bold text-blue-600">Finding a suitable V2X protocol for Dubai</span>,
-                  and evaluated though simulations the way in which we could network protocols that enable communication amongst cars and their surroundings to prevent
+                  and evaluated through simulations the way in which network protocols, that enable communication amongst cars and their surroundings, could prevent
                   road accidents in Dubai.
                 </p>
                 <a href="https://final-project-website.vercel.app/" target="_blank" rel="noreferrer">
