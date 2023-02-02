@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Awards from "./components/Awards";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
@@ -28,6 +29,7 @@ const App = () => {
       <Home />
       <Skills />
       <Projects />
+      <Awards />
       <Testimonials />
       <Contact />
       <footer className="p-3 text-center">
