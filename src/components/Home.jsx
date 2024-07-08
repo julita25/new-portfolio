@@ -20,7 +20,7 @@ const Home = () => {
           <h2 className="text-5xl font-bold">Web developer</h2>
           <br />
           <div className="flex justify-end">
-            <a href="/cv.pdf" download>
+            <a href="/cv2.pdf" download>
               <button className="py-2 px-9 border-2 rounded-md border-dark_primary rounded-br-3xl font-medium">Check cv</button>
             </a>
           </div>
