@@ -6,7 +6,7 @@ import react from "../images/react.jpg";
 import next from "../images/nextjs.png";
 import html from "../images/html.png"
 import webflow from "../images/webflow.png"
-import redux from "../images/webflow.png"
+import redux from "../images/redux.png"
 
 //project covers
 import analyticsWebsite from "../images/analytics-website.png";
