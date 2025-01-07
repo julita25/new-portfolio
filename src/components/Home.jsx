@@ -37,7 +37,7 @@ const Home = () => {
               data-aos-delay={300}
               className="flex items-center w-80 gap-5"
             >
-              <h3 className="text-5xl">3</h3>
+              <h3 className="text-5xl">4+</h3>
               <p>Years experience as a front end developer</p>
             </div>
             <div
