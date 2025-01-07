@@ -5,6 +5,8 @@ import javascript from "../images/javascript.png";
 import react from "../images/react.jpg";
 import next from "../images/nextjs.png";
 import html from "../images/html.png"
+import webflow from "../images/webflow.png"
+import redux from "../images/webflow.png"
 
 //project covers
 import analyticsWebsite from "../images/analytics-website.png";
@@ -42,20 +44,16 @@ export const NavBarContent = [
 
 export const SkillsContent=  [
     {
-      name: "HTML",
-      logo: html
-    },
-    {
-      name: "CSS",
-      logo: css
-    },
-    {
       name: "Javascript",
       logo: javascript
     },
     {
       name: "React js",
       logo: react
+    },
+     {
+      name: "Redux",
+      logo: redux
     },
     {
       name: "Next js",
@@ -64,7 +62,19 @@ export const SkillsContent=  [
     {
       name: "Figma",
       logo: figma
-    }
+    },
+    {
+      name: "Webflow",
+      logo: webflow
+    },
+    {
+      name: "HTML",
+      logo: html
+    },
+    {
+      name: "CSS",
+      logo: css
+    },
   ]
 
 export const ProjectContent = [
