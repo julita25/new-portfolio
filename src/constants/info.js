@@ -10,7 +10,6 @@ import redux from "../images/redux.png"
 
 //project covers
 import analyticsWebsite from "../images/analytics-website.png";
-import coldStone from "../images/cold-stone-website.png";
 import groceryStore from "../images/grocery-store.png";
 import personalityTest from "../images/personality-website.png";
 import recipeFinder from "../images/recipe-finder-website.png";
@@ -120,13 +119,6 @@ export const ProjectContent = [
     tags: ["React", "Typescript", "Bootstrap", "React Context"],
     txt: "Simple app that calculates the price of items added to the shopping bag. Add, remove, increase or decrease the quantities of the item. Uses local storage.",
     link: "https://shopping-cart-typescript-smoky.vercel.app/"
-  },
-  {
-    title: "Cold Stone landing page",
-    img: coldStone,
-    tags: ["React", "css"],
-    txt: "Check this simple website where I create a landing page for my favorite ice cream chain!.",
-    link: "https://hopeful-babbage-d198ef.netlify.app"
   }
 ];
 
