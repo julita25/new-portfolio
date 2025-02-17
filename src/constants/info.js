@@ -15,6 +15,7 @@ import groceryStore from "../images/grocery-store.png";
 import personalityTest from "../images/personality-website.png";
 import recipeFinder from "../images/recipe-finder-website.png";
 import shoppingCart from "../images/shopping-cart.png"
+import searchFlights from "../images/flights-website.png"
 
 //react icons
 import { TbSmartHome } from "react-icons/tb";
@@ -78,6 +79,13 @@ export const SkillsContent=  [
   ]
 
 export const ProjectContent = [
+    {
+    title: "Search flights website",
+    img: searchFlights,
+    tags: ["React.js", "Material UI"],
+    txt: "This website connects with Sky Scrapper api so that you can query prices for real-time flights. You can also add filters to get the cheapest price, choose the cabin class, add number of passengers, etc!",
+    link: "https://find-flights-website-dazl.vercel.app/"
+  },
   {
     title: "Recipe finder",
     img: recipeFinder,
